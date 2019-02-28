@@ -20,6 +20,10 @@
   "dependencies": {
     "discord.js": "^11.4.2",
     "dotenv": "^6.2.0",
-    "node-opus": "^0.3.1"
+    "ffmpeg-binaries": "^4.0.0",
+    "node-opus": "^0.3.1",
+    "node-samplerate": "^0.2.1",
+    "text2wav": "0.0.13",
+    "waveheader": "0.0.2"
   }
 }
