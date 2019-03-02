@@ -22,6 +22,14 @@ client.on('message', async msg => {
     await voice.activate(msg);
   }
 
+  if (msg.content.startsWith('%language')) {
+    voice.setPronounciation(msg);
+  }
+
+  if (msg.content.startsWith('%voice')) {
+    voice.setVariant(msg);
+  }
+
   if (msg.content.startsWith('%cu')) {
     voice.deactivate(msg);
   }
