@@ -6,3 +6,8 @@
 
 # editor
 /.idea
+
+# non-runtime files
+/.git
+.gitignore
+README.md
